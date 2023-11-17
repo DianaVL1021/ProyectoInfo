@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Media Web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+  
+  <script type="text/javascript">
+    emailjs.init('DCpXeGVGVKyZFp9aM')
+  </script>
+
+</head>
+<body>
+    <header>
+        
+        <button class="menu-abierto" id="abrir"><i class="bi bi-list"></i></button>
+        <img class ="logo" src="./img/logo.png">
+        <nav class="nav" id="nav">
+            
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x-square"></i></button>
+            <ul class="nav-lista">
+                <li><a href="#gruposkpop">Kpop</a></li>
+                <li><a href="#apartadokdrama">K-Dramas</a></li>
+                <li><a href="#apartadodisco">Discografias</a></li>
+                <li><a href="#Alimen">Alimentacion</a></li>
+                <li><a href="#lugares">Lugares Turisticos</a></li>
+                <li><a href="#apartadocontacto">Comentarios</a></li>
+            </ul>
+            
+            
+        </nav>
+    
+
+    </header>
+    <section class="inicio">
+        <div class="contenido-seccion">
+            <h2>Conoce todo sobre Corea del Sur</h2>
+            <p>Bienvenidos a K-Media Web la pagina de tu confianza entre Mexico y Corea</p>
+            <button class="cta" id="comienza">Comienza Ahora</button>
+                    
+            </div>
+    </section>
+ <!--GRUPOS DE KPOP-->
+    <section class="apartadokpop" id="gruposkpop">
+        <div class="introkpop contenidocon">
+            <h1>GRUPOS DE KPOP</h1>
+        </div>
+    </section>
+
+
+    <section class="gruposkpop" >
+        <div class="grupos_container contenidocon">
+            <img src="./img/arrow-left.svg" class="grupos_arrow" id="before">
+
+            <section class="grupos_body grupos_body--show" data-id="1">
+                <div class="grupos_texts">
+                    <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bts.bighitofficial/">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <h2 class="subtitle">BTS, <span class="grupos_detalle">Grupo Masculino
+                            </span></h2>
+                    <p class="grupos_info">Boy Band surcoreana formada por Big Hit Entertainment, conformada por siete integrantes (Jin, Suga, J-Hope, RM, Jimin, V y Jungkook).
+                        El nombre del grupo, BTS, es una abreviatura de la expresión coreana Bangtan Sonyeondan, que literalmente significa “Boy Scouts a prueba de balas”.
+                        El grupo debuta el 13 de junio de 2013 con la canción “No More Dream”.</p>
+                </div>
+
+                <figure class="grupos_picture">
+                    <img src="./img/bts.jpg" class="grupo_bts">
+                </figure>
+            </section>
+
+
+            <section class="grupos_body" data-id="2">
+                <div class="grupos_texts">
+                    <a href="https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/blackpinkofficial/">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <h2 class="subtitle">BlackPink, <span
+                        class="grupos_detalle">Grupo Femenino</span></h2>
+                    <p class="grupos_info">Grupo musical femenino surcoreano formado por YG Entertainment. 
+                        Está integrado por cuatro miembros: Jisoo, Jennie, Rosé y Lisa.El debut de la banda en agosto del 2016 rompió el récord como el más visto en la historia de este género y, desde ese momento, han generado mucha expectativa.</p>
+                </div>
+                <figure class="grupos_picture">
+                    <img src="./img/blackpink.png" class="grupo_bts">
+                </figure>
+            </section>
+            <section class="grupos_body" data-id="3">
+                <div class="grupos_texts">
+                    <a href="https://www.youtube.com/channel/UCzCedBCSSltI1TFd3bKyN6g">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.instagram.com/weareone.exo/">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <h2 class="subtitle">Exo, <span
+                        class="grupos_detalle">Grupo Masculino</span></h2>
+                    <p class="grupos_info">Grupo masculino formado por SM Entertainment en 2011. El grupo hizo su debut en abril de 2012 con doce integrantes divididos en dos subgrupos: EXO-K (Suho, Baekhyun, Chanyeol, Kai, D.O. y Sehun) y EXO-M 
+                        (Xiumin, Chen, Lay, Kris, Tao y Luhan), promocionando música en Corea y China, respectivamente</p>
+                </div>
+                <figure class="grupos_picture">
+                    <img src="./img/exo.png" class="grupo_bts">
+                </figure>
+            </section>
+
+            <img src="./img/arrow-right.svg" class="grupos_arrow" id="next">
+       
+        </div>
+         
+    </section>
+
+    <!--KDRAMAS-->
+    <section class="apartadokdrama" id="apartadokdrama">
+        <div class="introkpop contenidocon">
+            <h1>K-DRAMAS</h1>
+        </div>
+    </section>
+
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">Slide 1
+            <div class="parallax-bg" style="
+          background-image: url(./img/aterrizaje.png);
+        " data-swiper-parallax="-23%"></div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Aterrizaje de Emergencia a tu Corazon</div>
+                <div class="subtitle1" data-swiper-parallax="-300">2019 | 1 temporada  | Romance, Drama </div>
+                <div class="subtitle1" data-swiper-parallax="-300">16 Episodios</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <br>
+                  <p>
+                    Se-ri es una heredera de Corea del Sur que sufre un accidente
+                    causado por fuertes vientos durante un viaje en parapente, 
+                    lo que ocasiona que termine realizando un aterrizaje de emergencia
+                    en Corea del Norte, ahi conoce a Ri Jung-hyuk, un oficial del ejercito 
+                    norcoreano que trata de protegerla y esconderla de las autoridades del norte.
+                    Sin embargo, las cosas comienzan a complicarse debido a que ella no puede volver
+                    al sur y gracias al tiempo que pasan juntos desarrollan un gran romance.
+                  </p>
+                  <br>
+                  <p>
+                    Protagonistas: Hyun Bin, Son Ye-jin, Seo Ji-hye, Kim Jung-hyun
+                  </p>
+                  <p>
+                    Creado por: Lee Jung-hyo,Park Ji-eun
+                  </p>
+                  <br>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide">Slide 2
+            <div class="parallax-bg" style="
+          background-image: url(./img/itaewon.jpeg);
+        " data-swiper-parallax="-23%"></div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Itaewon Class</div>
+                <div class="subtitle1" data-swiper-parallax="-300">2020 | 1 temporada  | Drama </div>
+                <div class="subtitle1" data-swiper-parallax="-300">16 Episodios</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <br>
+                  <p>
+                    En un barrio diverso de Seúl, un exconvicto y sus amigos se enfrentan a un enemigo poderoso para hacer realidad sus ambiciosos sueños gastronómicos.
+                    Se basa en el webtoon del mismo nombre
+                  </p>
+                  <br>
+                  <p>
+                    Protagonistas: Park Seo-jun, Kim Da-mi, Yoo Jae-myung
+                  </p>
+                  <p>
+                    Creado por: Kim Sung-youn,Gwang Jin
+                  </p>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                </div>
+              </div>
+    
+          </div>
+          <div class="swiper-slide">Slide 3
+            <div class="parallax-bg" style="
+          background-image: url(./img/2521.png);
+        " data-swiper-parallax="-23%"></div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Veinticinco, veintiuno</div>
+                <div class="subtitle1" data-swiper-parallax="-300">2022 | 1 temporada  | Drama </div>
+                <div class="subtitle1" data-swiper-parallax="-300">16 Episodios</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <br>
+                  <p>
+                    El es Baek Yi-jin, el hijo mayor de una familia
+                    que fue destruida por el FMI durante la crisis economica que atravesaba el pais en esa epoca, y se convirtio
+                    en reportero deportuvi de UBS despues de llevar una vida dificil. Ella es Na Hee-do, una soñadira que formaba 
+                    parte del equipo de esgrima, donde nunca se dio por vencida gracias a su pasion y entusiasmo, a pesar de que equipo se 
+                    desolvia tambien por la crisis financiera. Cuando 
+                    cumplieron Veinticinco y veintiun años se enamoraron y crecieron juntos. 
+                  </p>
+                  <br>
+                  <p>
+                    Protagonistas: Kim Tae-ri, Nam Joo-hyuk, Kim Ji-yeon
+                  </p>
+                  <p>
+                    Creado por: Jung Jee-hyun, Kwon Do-eun
+                  </p>
+                 <br>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-slide">Slide 4
+            <div class="parallax-bg" style="
+          background-image: url(./img/juego.webp);
+        " data-swiper-parallax="-23%"></div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">El Juego del Calamar</div>
+                <div class="subtitle1" data-swiper-parallax="-300">2021 | 1 temporada  | Thrillers </div>
+                <div class="subtitle1" data-swiper-parallax="-300">9 Episodios</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <br>
+                  <p>
+                    Historia donde 465 personas que deciden convertirse en jugadores de una serie misteriosa y emfermizos
+                    juegos infantiles de supervivencia mortal para tener la oportunidad de ganar la cantidad maxima de 
+                    45 600 millones de wones. Sung Ki-hoon, un padre divorciado y jugador endeudado que vive con su anciana madre, es invitado a participar en esta serie.
+                  </p>
+                  <br>
+                  <p>
+                    Protagonistas: Lee Jung-jae, Park Hae-soo, Wi Ha-jun
+                  </p>
+                  <p>
+                    Creado por: Hwang Dong-hyuk
+                  </p>
+                 <br>
+                 <br>
+                 <br>
+                </div>
+              </div>
+          </div>
+            
+          <div class="swiper-slide">Slide 5
+            <div class="parallax-bg" style="
+          background-image: url(./img/love.jpg);
+        " data-swiper-parallax="-23%"></div>
+            <div class="swiper-slide">
+                <div class="title" data-swiper-parallax="-300">Love Alarm</div>
+                <div class="subtitle1" data-swiper-parallax="-300">2019 | 2 temporadas  | Romance, Drama </div>
+                <div class="subtitle1" data-swiper-parallax="-300">17 Episodios</div>
+                <div class="text" data-swiper-parallax="-100">
+                    <br>
+                  <p>
+                    Todo gira entorno a una aplicacion "LOVE ALARM" que dice al usuario si alguien dentro de los 
+                    10 metros en donde se encuentra tiene sentimientos romanticos hacia el/ella
+                    Kim Jo-jo, una estudiante de preparatoria con una vida personal complicada. 
+                    La amistad de Sun-oh y Hye-young se pone a prueba cuando se dan cuenta que ambos se sienten atraídos 
+                    por Jo-jo, quien no puede bajar la aplicación. 
+                  </p>
+                  <br>
+                  <p>
+                    Protagonistas: Kim So-hyun, Jung Ga-ram, Song Kang
+                  </p>
+                  <p>
+                    Creado por: Kim Jin-woo, Lee Na-jeong, Workshop R, Lee Ayoun, Seo Bora
+                  </p>
+                 <br>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    
+ <!--DISCOGRAFIAS-->
+    <section.casa class="home" id="Home">
+        <div class="container">
+            <h2 class="subtitle" id="apartadodisco">DISCOGRAFIAS</h2>
+        <div class="container-table">
+            <div class="card-container">
+                <figure>
+                    <img class="imagen1" src="./img/hybe.png" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>HYBE Corporation</h2>
+                <h3>하이브</h3>
+                <p> Compañia de entretenimiento de 
+                    Corea del Sur establecida en 
+                    febrero de 2005 por Bang Si-hyuk.</p>
+                    <a class="bot" href="https://hybecorp.com/eng/main">Sitio Web</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <figure>
+                    <img class="imagen2" src="./img/SM.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>SM Entertainment</h2>
+                <h3>에스엠엔터테인먼트</h3>
+                <p> Empresa de entretenimiento 
+                    surcoreana, fundada en 1995 por 
+                    Lee Soo-man.​ </p>
+                    <a class="bot" href="https://www.smentertainment.com/">Sitio Web</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <figure>
+                    <img class="imagen3" src="./img/jyp.png" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>JYP Entertainment</h2>
+                <h3>JYP엔터테인먼트</h3>
+                <p> Sello discográfico coreano 
+                    fundado en Seúl, Corea del 
+                    Sur en 1997 por JY Park,</p>
+                    <a class="bot" href="https://www.jype.com/">Sitio Web</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <figure>
+                    <img class="imagen3" src="./img/Yg.png" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>YG Entertainment</h2>
+                <h3>YG 엔터테인먼트
+                </h3>
+                <p> Empresa de entretenimiento 
+                    surcoreana, fundada en 1996 por 
+                    Yang Hyun-suk con sede en Seúl.</p>
+                    <a class="bot" href="https://www.ygfamily.com/">Sitio Web</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <figure>
+                    <img class="imagen3" src="./img/RBW.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Rainbow Bridge World</h2>
+                <h3>알비 더블유</h3>
+                <p> Compañía discográfica surcoreana 
+                    fundada por Kim Jin-woo y Kim Do-hoon.
+                    ​La empresa tiene múltiples subsidiarias, 
+                    incluidos RBW Japan, Modern RBW</p>
+                    <a class="bot" href="http://www.rbbridge.com/">Sitio Web</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section.casa>
+    <!--ALIMENTOS-->
+    <section.alimentos class="alimen" id="Alimen">
+        <div class="containerA">
+            <h2 class="subtitle">ALIMENTOS</h2>
+        <div class="container-tableA">
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/kimchi.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Kimchi</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/bulgogi.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Bulgogi</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/tteo.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Tteokbokki</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/jamche.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Japchae</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/dulce.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Bbobki</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/dulce2.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Kkultarae</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/taiyaki9.webp" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Bungeoppang</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/cookies.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Yakgwa</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/be.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Makgeolli</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/soju.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Soju</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/leche.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Banana uyu</h2>
+                </div>
+            </div>
+            <div class="card-containerA">
+                <figure>
+                    <img class="imagen1" src="./img/te.jpg" alt="">
+                </figure>
+                <div class="contenido">
+                <h2>Omija Cha</h2>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section.alimentos>
+    <!--Lugares Turisticos-->
+    <section.lugar class="lugares" id="lugares">
+        <div class="container">
+            <h2 class="subtitle2">LUGARES TURISTICOS</h2>
+        <div class="container2-table">
+            <div class="card-container2">
+                <figure>
+                    <img class="imagen1" src="./img/Gyeongbokgung.jpg" alt="">
+                </figure>
+                <div class="contenido2">
+                <h2>Palacio Gyeongbokgung</h2>
+                <p>Palacio principal. Construido en el año 1395 en el comienzo de la dinastía Joseon y fue la vivienda de los reyes así como también fue el centro de  gobierno de la dinastía.</p>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.9573823330097!2d126.97446607506267!3d37.57962122337897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2sGyeongbokgung!5e0!3m2!1ses-419!2smx!4v1699662595428!5m2!1ses-419!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </div>
+            </div>
+            <div class="card-container2">
+                <figure>
+                    <img class="imagen1" src="./img/isla.jpg" alt="">
+                </figure>
+                <div class="contenido2">
+                <h2>Isla Jeju</h2>
+                <p>Sus hermosas playas, paisajes naturales y su deliciosa oferta gastronómica la convierten en un lugar único. Es considerada por muchos como el mayor tesoro de Corea del Sur. </p>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851106.61518511!2d125.89779724668969!3d33.56285290471579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x350ce3544cc84045%3A0x66bc36d2981ebf31!2sJeju%2C%20Corea%20del%20Sur!5e0!3m2!1ses-419!2smx!4v1699663380874!5m2!1ses-419!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </div>
+            </div>
+            <div class="card-container2">
+                <figure>
+                    <img class="imagen1" src="./img/torre.jpg" alt="">
+                </figure>
+                <div class="contenido2">
+                <h2>Torre Namsan</h2>
+                <p>Hito emblemático de Seúl que ofrece vistas panorámicas de la ciudad. Es una torre de observación y comunicación ubicada en la cima de la montaña Namsan</p>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1651084840814!2d126.98565167506105!3d37.551173625010314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca257a88e6aa9%3A0x5cf8577c2e7982a5!2sN%20Seoul%20Tower!5e0!3m2!1ses-419!2smx!4v1699663763522!5m2!1ses-419!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </figure>
+                    </figure>
+                </div>
+            </div>
+            <div class="card-container2">
+                <figure>
+                    <img class="imagen1" src="./img/templo.jpg" alt="">
+                </figure>
+                <div class="contenido2">
+                <h2>Templo de Haedong Yonggungsa</h2>
+                <p> es un templo budista ubicado en la ciudad de Busán. Es uno de los pocos templos costeros de Corea del Sur y es conocido por su impresionante ubicación frente al mar. Fundado en el año 1376.</p>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.72711218445!2d129.22074477494144!3d35.18835345689319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688c1bbbdea6c1%3A0xa141406d6f112e5c!2sHaedong%20Yonggungsa%20Temple%2C%20Busan!5e0!3m2!1ses-419!2smx!4v1699664294093!5m2!1ses-419!2smx" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                
+                    </figure>
+                    </div>
+            </div>
+        </div>
+        
+        </div>
+    </section.casa>
+
+    <!--COMENTARIOS-->
+    <section class="contacto">
+        <div class="contenido-seccion" id="apartadocontacto">
+            <h2>COMENTARIOS</h2>
+            <div class="fila">
+                <div class="col">
+                    <form id="form">
+                        <div class="field">
+                            <label for="for_name" >Nombre: </label>
+                            <input type="text" name="for_name" id="for_name">
+                        </div>
+                        <div class="field">
+                            <label for="message" >Mensaje: </label>
+                            <input type="text" name="message" id="message">
+                        </div>
+                        <div class="field">
+                            <label for="email_id" >Email: </label>
+                            <input type="text" name="email_id" id="email_id">
+                        </div>
+                        <button type="submit" id="button" value="Send Email">
+                            Enviar <i class="bi bi-send"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <div class="col">
+                        <div class="info">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6634659.814210119!2d122.58156605680195!3d35.711952094934084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356455ebcb11ba9b%3A0x91249b00ba88db4b!2sCorea%20del%20Sur!5e0!3m2!1ses-419!2smx!4v1699592532751!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="./js/funciones.js"></script>
+</body>
+</html>
